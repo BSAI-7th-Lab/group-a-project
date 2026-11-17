@@ -5,6 +5,5 @@ coverage
 .env
 .env.*
 !.env.example
-frontend/apps/customer/public/sw.js
+apps/customer/public/sw.js
 *.tsbuildinfo
-node_modules
