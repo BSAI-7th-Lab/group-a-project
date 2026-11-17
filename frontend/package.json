@@ -1,0 +1,17 @@
+{
+  "name": "swarmdining",
+  "private": true,
+  "packageManager": "pnpm@12.21.0",
+  "scripts": {
+    "dev": "corepack pnpm --filter customer dev",
+    "build": "corepack pnpm --filter customer build",
+    "start": "corepack pnpm --filter customer start",
+    "lint": "corepack pnpm --filter customer lint",
+    "typecheck": "corepack pnpm --filter customer typecheck",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}

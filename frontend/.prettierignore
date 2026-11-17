@@ -1,0 +1,4 @@
+node_modules/
+.next/
+frontend/apps/customer/public/sw.js
+pnpm-lock.yaml
